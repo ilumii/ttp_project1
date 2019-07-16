@@ -13,6 +13,7 @@ body{
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-family: "Arial", Helvetica, sans-serif;
 	font-size: 20px;
 }
 
@@ -24,4 +25,54 @@ body{
 .nav a.active {
 	background-color: #4CAF50;
 	color: white;
+}
+
+.main_header {
+	font-family: "Arial", Helvetica, sans-serif;
+	text-align: center;
+	font-size: 40px;
+}
+
+.pollution_image_1 {
+	display: block;
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info {
+	padding-left: 25%;
+	padding-right: 25%;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+.info h2 {
+	font-size: 30px;
+}
+
+
+.info ul {
+	padding-left: 2%;
+}
+
+.donate {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px; 
+	overflow: hidden;
+	background-color: rgba(200, 0, 0, 1);
+	text-decoration: none;
+	position:relative;
+}
+
+.donate p{
+	text-align: center;
+	color: #f2f2f2;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 45px;
+	text-decoration: none;
+	line-height: 0.25em;
 }
