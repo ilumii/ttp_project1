@@ -11,7 +11,7 @@ body{
 	float: right;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 14px;
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -24,4 +24,74 @@ body{
 .nav a.active {
 	background-color: #4CAF50;
 	color: white;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("cleanOcean.jpg");
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Headline {
+	text-align: center;
+	color: white;
+	border: 8px solid rgba(24, 22, 22, 1);
+	padding: 13px 13px;
+	background-color: rgba(24, 22, 22, 1);
+	margin-left:40%;
+	margin-right: 40%;
+	margin-top: 10%;
+}
+.Headline2 {
+	text-align: center;
+	color: white;
+	border: 8px solid rgba(24, 22, 22, 1);
+	padding: 13px 13px;
+	background-color: rgba(24, 22, 22, 1);
+	margin-left:40%;
+	margin-right: 40%;
+}
+.Paragraph {
+	margin-top: 2%;
+	text-align: center;
+	padding: 14px 14px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 14px;
+
+}
+.parallax2{ 
+  /* The image used */
+  padding-top: 150px;
+  background-image: url("DirtyWater.jpg");
+
+  /* Set a specific height */
+  height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3{ 
+  /* The image used */
+  padding-top: 300px;
+  background-image: url("ClearOcean.jpg");
+
+  /* Set a specific height */
+  height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
